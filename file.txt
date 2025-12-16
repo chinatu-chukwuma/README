@@ -1,0 +1,95 @@
+| Task                  | Command            | Notes                                       |
+| --------------------- | ------------------ | ------------------------------------------- |
+| Create project folder | `mkdir my_project` | Replace `my_project` with your project name |
+| Go into folder        | `cd my_project`    | Check location with `pwd`                   |
+| Initialize Git        | `git init`         | Makes folder a Git repo                     |
+| Check status          | `git status`       | Shows tracked/untracked files               |
+
+
+
+
+
+| Task              | Command                         | Notes                 |
+| ----------------- | ------------------------------- | --------------------- |
+| Create file       | `touch README.md`               | Creates empty file    |
+| Add text          | `echo "Some text" > README.md`  | Overwrites file       |
+| Add text (append) | `echo "More text" >> README.md` | Appends to file       |
+| List files        | `ls`                            | Shows files in folder |
+| View content      | `cat README.md`                 | Displays file content |
+
+
+
+
+
+| Task         | Command                   | Notes                           |
+| ------------ | ------------------------- | ------------------------------- |
+| Stage file   | `git add README.md`       | Add a specific file             |
+| Stage all    | `git add .`               | Add all changed files           |
+| Commit       | `git commit -m "Message"` | Save snapshot with message      |
+| Check status | `git status`              | Ensure changes staged/committed |
+
+
+
+
+
+| Task               | Command                       | Notes                     |
+| ------------------ | ----------------------------- | ------------------------- |
+| Add remote         | `git remote add origin <URL>` | URL from GitHub repo      |
+| Ensure main branch | `git branch -M main`          | Rename branch if needed   |
+| Push               | `git push -u origin main`     | Push local repo to GitHub |
+
+
+
+
+
+| Task           | Command                           | Notes                                 |
+| -------------- | --------------------------------- | ------------------------------------- |
+| Stage changes  | `git add <file>`                  | Or `git add .`                        |
+| Commit changes | `git commit -m "Describe change"` | Keep messages clear                   |
+| Push           | `git push`                        | Send commits to GitHub                |
+| Pull           | `git pull`                        | Update local repo with GitHub changes |
+
+
+
+
+
+| Task            | Command                    | Notes                        |
+| --------------- | -------------------------- | ---------------------------- |
+| Create & switch | `git checkout -b <branch>` | Make feature branch          |
+| Switch back     | `git checkout main`        | Return to main branch        |
+| Merge branch    | `git merge <branch>`       | Merge feature into main      |
+| Delete branch   | `git branch -d <branch>`   | Clean up local branch        |
+| Push changes    | `git push`                 | Push merged branch to GitHub |
+
+
+
+
+
+| Task          | Command             | Notes                         |
+| ------------- | ------------------- | ----------------------------- |
+| Quick history | `git log --oneline` | Shows commits in short format |
+| See changes   | `git diff`          | Before staging                |
+
+
+
+
+
+| Task                    | Command                   | Notes                            |
+| ----------------------- | ------------------------- | -------------------------------- |
+| Undo file changes       | `git checkout -- <file>`  | Revert to last committed version |
+| Undo last commit (soft) | `git reset --soft HEAD~1` | Keep changes staged              |
+| Undo last commit (hard) | `git reset --hard HEAD~1` | Discard changes completely       |
+
+
+
+
+cd      # change directory
+ls      # list files
+pwd     # where am I
+touch   # create file
+mkdir   # create folder
+rm      # delete
+cp      # copy
+mv      # move/rename
+cat     # view file
+grep    # search text
